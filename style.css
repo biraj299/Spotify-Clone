@@ -323,6 +323,9 @@ align-items: center;
 #checkk{
     display: none;
 }
+#heart{
+    cursor: pointer;
+}
 
 #checkk:checked ~ label #heart{
     color: rgb(250, 35, 178);
