@@ -39,6 +39,9 @@ body{
     width: 100%;
     bottom: 0px;
     height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .nav .first{
     margin-bottom: 22px;
@@ -223,4 +226,97 @@ body{
     height: 50%;
     width: 95%;
     border-top: 1px solid grey;
+}
+.album{
+    width: 25%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: white;
+    margin-left: 22px;
+    
+}
+.player{
+    width: 50%;
+}
+.controls{
+    width: 25%;
+}
+
+.player-control{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.player-control .controls-img{
+    height:12px;
+    width: 12px;
+    padding: 0px 25px;
+    opacity: 0.7;
+}
+.player-control .controls-img:hover{
+    opacity: 1;
+}
+.player-control .play{
+    height:32px;
+    width: 32px;
+    padding: 0px 10px;
+    opacity: 1;
+}
+/* .player-control .play:hover{
+    height:34px;
+    width: 34px;
+} */
+.progress-bar{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.progress-bar span{
+    color: white;
+}
+
+.progress{
+    width: 70%;
+    appearance: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.progress::-webkit-slider-runnable-track{
+    appearance: none;
+    height: 3px;
+    /* border:2px solid red; */
+    border-radius: 100px;
+
+    background-color: white;
+}
+
+.progress::-webkit-slider-thumb{
+    
+     appearance: none;
+    height: 12px;
+    width: 12px;
+    background-color: green;
+    border-radius: 50%;
+    margin-top:-5px;
+}
+
+.album img{
+    height: 40px;
+    width: 40px;
+}
+.curr-song-info{
+    margin: 0 20px;
+}
+
+.curr-song{
+    font-weight: 500;
+    font-size: 12px;
+    margin-bottom: 3px;
+}
+.song-info{
+    font-size: 10px;
+    opacity: 0.8;
+    margin-top: 6px;
 }
