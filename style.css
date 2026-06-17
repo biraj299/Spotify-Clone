@@ -136,6 +136,7 @@ body{
     font-size: 12px;
     font-weight:600;
     margin:4px;
+    cursor: pointer;
 }
 
 
@@ -165,7 +166,9 @@ body{
     justify-items: center;
     align-items: center;
     margin-right: 28px;
-    
+}
+.sticky-btns .btn,a,i{
+  cursor: pointer;
 }
 .blackcolor{
     background-color: #222222;
@@ -196,21 +199,28 @@ body{
     border-radius: 8px;
     margin-right: 20px;
     margin-bottom: 20px;
+    cursor: pointer;
+}
+.card:hover{
+    box-shadow:0 0 3px rgba(2555,255,255,1);
 }
 .card-img{
     width: 100%;
     border-radius: 8px;
     height: 150px;
     width: 150px;
+    cursor: pointer;
 }
 
 .card-title{
     font-weight: 600;
+    cursor: pointer;
 }
 
 .card-info{
     font-size: 12px;
     opacity: 0.7;
+    cursor: pointer;
 }
 
 .footer{
@@ -250,6 +260,7 @@ body{
     width: 12px;
     padding: 0px 25px;
     opacity: 0.7;
+    cursor: pointer;
 }
 .player-control .controls-img:hover{
     opacity: 1;
@@ -328,7 +339,7 @@ align-items: center;
 }
 
 #checkk:checked ~ label #heart{
-    color: rgb(250, 35, 178);
+    color: rgb(224, 13, 13);
 }
 
 
